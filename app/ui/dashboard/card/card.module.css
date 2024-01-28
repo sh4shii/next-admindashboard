@@ -8,8 +8,8 @@
   width: 100%;
 }
 
-.container:hover{
-    background-color: #2e374a;
+.container:hover {
+  background-color: #2e374a;
 }
 
 .texts {
@@ -28,10 +28,10 @@
   font-weight: 300;
 }
 
-.positive{
-    color: lime;
+.positive {
+  color: lime;
 }
 
-.negative{
-    color: red;
+.negative {
+  color: red;
 }

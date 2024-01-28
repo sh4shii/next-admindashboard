@@ -48,11 +48,11 @@ export const { signIn, signOut, auth } = NextAuth({
       return token;
     },
     async session({ session, token }) {
-        if (token) {
-          session.user.username = token.username;
-          session.user.img = token.img;
-        }
-        return session;
-      },
+      if (token) {
+        session.user.username = token.username;
+        session.user.img = token.img;
+      }
+      return session;
+    },
   },
 });

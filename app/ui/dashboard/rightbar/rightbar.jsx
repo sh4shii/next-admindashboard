@@ -51,8 +51,6 @@ const Rightbar = () => {
           </button>
         </div>
       </div>
-
-
     </div>
   );
 };
